@@ -1,0 +1,11 @@
+* {
+    --tg-theme-bg-color: #1e1f22;
+    --tg-theme-text-color: #6a9ab8;
+}
+
+
+body {
+    max-width: 100%;
+    background-color: var(--tg-theme-bg-color);
+    color: var(var(--tg-theme-text-color));
+}
