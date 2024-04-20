@@ -1,6 +1,6 @@
-const tg = window.Telegram.WebApp
+let tg = window.Telegram.WebApp
 
-const init = document.getElementById('init')
-const div = document.createElement('div');
-div.innerHTML = tg.initData;
+let init = document.getElementById('init')
+let div = document.createElement('div');
+div.innerHTML = tg.initDataUnsafe;
 init.appendChild(div);
