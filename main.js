@@ -1,6 +1,6 @@
 const tg = window.Telegram.WebApp
 
-const body = document.querySelector('body');
+const init = document.getElementById('init')
 const div = document.createElement('div');
 div.innerHTML = tg.initData;
-body.appendChild(div);
+init.appendChild(div);
