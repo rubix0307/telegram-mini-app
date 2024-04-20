@@ -1,4 +1,4 @@
-const tg = window.Telegram.WebApp()
+const tg = window.Telegram.WebApp
 
 const body = document.querySelector('body');
 const div = document.createElement('div');
